@@ -1,0 +1,32 @@
+{
+  "best_algorithm": "SVR",
+  "cv_mean_rmse": 41.67493365538085,
+  "cv_std_rmse": 2.6710783944187937,
+  "average_rentals_per_hour": 189.46308763450142,
+  "folds": 10,
+  "rows": 17379,
+  "numeric_features": [
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed",
+    "yr",
+    "holiday",
+    "workingday"
+  ],
+  "categorical_features": [
+    "season",
+    "mnth",
+    "hr",
+    "weekday",
+    "weathersit"
+  ],
+  "all_algorithms_mean_rmse": {
+    "SVR": 41.67493365538085,
+    "Extra Trees": 45.51235538780772,
+    "HistGradientBoosting": 46.798825058948616,
+    "Ridge Regression": 101.91315018454691,
+    "AdaBoost": 141.42205048161875
+  },
+  "sklearn_version": "1.8.0"
+}
